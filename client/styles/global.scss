@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* モバイルファースト */
+h1 {
+  color: red;
+}
+@media screen and (min-width: 480px) {
+  /*　画面サイズが480pxからはここを読み込む　*/
+  h1 {
+    color: #ededed;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1025px) {
+  /*　画面サイズが600pxから1025pxまではここを読み込む　*/
+  h1 {
+    color: red;
+  }
+}
+@media screen and (min-width: 1025px) {
+  /*　画面サイズが1025pxから*/
+  h1 {
+    color: blue;
+  }
+}

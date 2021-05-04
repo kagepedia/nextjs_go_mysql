@@ -1,0 +1,11 @@
+.news_list {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    background: #ddd;
+    padding: 1em;
+    flex: 1 0 300px;
+    margin: 0.4em;
+  }
+}
